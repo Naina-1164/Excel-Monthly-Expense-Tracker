@@ -1,33 +1,25 @@
 # Excel Monthly Expense Tracker
 
-A beginner-friendly Excel project created to practice basic spreadsheet skills and simple expense analysis.
-
-## Version 1 - Basic Expense Analysis
-
-The first version contains 15 sample daily expenses with Date, Category, Description, and Amount. It practices table formatting, sorting/filtering, SUM, AVERAGE, MAX, MIN, and COUNTIF.
-
-## Version 2 - Category-wise Expense Summary
-
-Version 2 builds on the same workbook instead of creating a new project. It adds a simple category summary for Food, Travel, Shopping, and Bills.
-
-### New Concepts Practiced
-
-- `SUMIF()` for category-wise spending
-- `COUNTIF()` for category entry counts
-- Percentage of total expense
-- Simple summary-table formatting
-- Reading spending patterns by category
-
-### Version 2 Summary
-
-| Category | Total Spending | Entries | % of Total |
-|---|---:|---:|---:|
-| Food | ₹870 | 5 | 17.73% |
-| Travel | ₹1,150 | 3 | 23.43% |
-| Shopping | ₹1,040 | 3 | 21.19% |
-| Bills | ₹1,848 | 4 | 37.65% |
-| **Overall** | **₹4,908** | **15** | **100%** |
+A beginner-friendly Excel project improved step by step.
 
 ## Learning Progress
 
-This project is being improved gradually. Version 2 remains beginner-friendly and intentionally avoids PivotTables, dashboards, and advanced formulas. Those can be added in later versions as my Excel skills improve.
+**Version 1:** Basic expense data and formulas  
+**Version 2:** Category-wise summary with `SUMIF()`, `COUNTIF()`, and percentages  
+**Version 3:** First chart for visual analysis
+
+## Version 3 - Spending by Category Chart
+
+Version 3 adds a simple **Clustered Column Chart** based on the existing category summary.
+
+The chart is titled **Spending by Category** and compares Food, Travel, Shopping, and Bills. This introduces basic data visualization without jumping to PivotTables or a full dashboard.
+
+### Concepts Practiced
+
+- Selecting summary data for a chart
+- Creating a column chart
+- Adding a clear chart title
+- Comparing category spending visually
+- Improving an existing workbook rather than creating a new project
+
+PivotTables and dashboard-style reporting are intentionally left for later versions.

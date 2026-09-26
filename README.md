@@ -6,20 +6,35 @@ A beginner-friendly Excel project improved step by step.
 
 **Version 1:** Basic expense data and formulas  
 **Version 2:** Category-wise summary with `SUMIF()`, `COUNTIF()`, and percentages  
-**Version 3:** First chart for visual analysis
+**Version 3:** First chart for visual analysis  
+**Version 4:** First PivotTable-style expense summary
 
-## Version 3 - Spending by Category Chart
+## Version 4 - Expense Summary
 
-Version 3 adds a simple **Clustered Column Chart** based on the existing category summary.
+Version 4 adds a separate **Expense Summary** worksheet that summarizes the raw expense data by category.
 
-The chart is titled **Spending by Category** and compares Food, Travel, Shopping, and Bills. This introduces basic data visualization without jumping to PivotTables or a full dashboard.
+It shows:
+
+- Category
+- Sum of Amount
+- Count of Amount
+- Grand Total
+
+### Current Summary
+
+| Category | Sum of Amount | Count |
+|---|---:|---:|
+| Bills | ₹1,848 | 3 |
+| Food | ₹870 | 5 |
+| Shopping | ₹1,040 | 3 |
+| Travel | ₹1,150 | 4 |
+| **Grand Total** | **₹4,908** | **15** |
 
 ### Concepts Practiced
 
-- Selecting summary data for a chart
-- Creating a column chart
-- Adding a clear chart title
-- Comparing category spending visually
-- Improving an existing workbook rather than creating a new project
+- Understanding how a PivotTable groups categories
+- Sum and Count summaries
+- Separating raw data from summary output
+- Reading category-level spending
 
-PivotTables and dashboard-style reporting are intentionally left for later versions.
+This version stays beginner-friendly. PivotCharts, slicers, and dashboard-style reporting can be introduced later.
